@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="gift-certificate">
+    <output-path>$PROJECT_DIR$/out/artifacts/gift_certificate</output-path>
+    <root id="archive" name="gift-certificate.jar">
+      <element id="module-output" name="entity" />
+      <element id="library" level="project" name="Maven: io.micrometer:micrometer-commons:1.12.1" />
+      <element id="library" level="project" name="Maven: io.micrometer:micrometer-observation:1.12.1" />
+      <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.41.0" />
+      <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.7.1" />
+      <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.30" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-aop:6.1.2" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-beans:6.1.2" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-context:6.1.2" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-core:6.1.2" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-expression:6.1.2" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-jcl:6.1.2" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:6.1.2" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-tx:6.1.2" />
+      <element id="module-output" name="service" />
+      <element id="module-output" name="web" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-web:6.1.2" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:6.1.2" />
+      <element id="javaee-facet-resources" facet="web/web/Web" />
+    </root>
+  </artifact>
+</component>

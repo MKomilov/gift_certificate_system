@@ -1,0 +1,41 @@
+GET http://localhost:8080/tags/6;
+###
+GET http://localhost:8080/tags;
+###
+POST http://localhost:8080/tags
+Content-Type: application/json
+
+{
+  "name" : "Tag5"
+}
+###
+DELETE http://localhost:8080/tags/12
+###
+POST http://localhost:8080/gift_certificates
+Content-Type: application/json
+
+{
+  "name" : "Test",
+  "description": "Some other description",
+  "price" : 2.5,
+  "duration": 15,
+  "tagIds": [1, 2, 3]
+}
+###
+GET http://localhost:8080/gift_certificates/3;
+###
+GET http://localhost:8080/gift_certificates;
+###
+PATCH http://localhost:8080/gift_certificates/7
+Content-Type: application/json
+
+{
+  "description":"Some certificate",
+  "price": 3.5,
+  "name": "Test1"
+}
+###
+DELETE http://localhost:8080/gift_certificates/7
+###
+
+GET http://localhost:8080/gift_certificates/filter?sort_date=asc&tag_name=Cooking
